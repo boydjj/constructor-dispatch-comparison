@@ -5,3 +5,8 @@ method. I ran across this in a codebase I was reviewing and was curious whether 
 
 The tests are contained in `com.jeremy_boyd.ConstructorDispatchBenchmark` and were run via the [Java Microbenchmark
 Harness](http://openjdk.java.net/projects/code-tools/jmh/) (JMH). Also see [this tutorial](http://tutorials.jenkov.com/java-performance/jmh.html).
+
+To run this on your own machine, do the following:
+
+    make clean install
+    java -jar target/benchmarks.jar
